@@ -1,0 +1,19 @@
+# .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+logs/
+PersonalBlog.API/appsettings.Development.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
