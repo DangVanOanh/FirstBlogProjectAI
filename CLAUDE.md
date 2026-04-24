@@ -120,7 +120,7 @@ frontend/src/
 - **Mọi lỗi** throw Exception → bắt tại ErrorHandlingMiddleware → trả ApiResponse
 - **DI** hoàn toàn qua interface, đăng ký trong ServiceExtensions
 
-## Trạng thái hiện tại (cập nhật 2026-04-23)
+## Trạng thái hiện tại (cập nhật 2026-04-24)
 ### Đã hoàn thành
 - [x] Backend: CRUD Posts, Tags, Comments, Auth JWT
 - [x] Backend: FluentValidation, Serilog, ErrorHandling Middleware
@@ -128,11 +128,14 @@ frontend/src/
 - [x] Frontend: React + TypeScript + Tailwind
 - [x] Frontend: AuthContext, ErrorBoundary, LoadingSpinner
 - [x] Frontend: Trang Home, PostDetail, Search, Login, Admin, PostForm
+- [x] Frontend: Redesign HomePage theo theme "The Blogger" (3 cột: featured | 2 stacked | sidebar)
+- [x] Frontend: PostFormPage — chọn ảnh bìa từ local (base64, không dùng URL)
+- [x] Git: Khởi tạo repo, push lên GitHub (https://github.com/DangVanOanh/FirstBlogProjectAI)
 
 ### Việc cần làm tiếp theo (theo thứ tự ưu tiên)
 - [ ] Unit test Backend (xUnit + Moq)
 - [ ] Rich text editor (TipTap)
-- [ ] Upload ảnh thực (Cloudinary)
+- [ ] Upload ảnh thực (Cloudinary) — thay thế base64 hiện tại
 - [ ] SEO (React Helmet)
 - [ ] Rate limiting API
 - [ ] CORS production config
